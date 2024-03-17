@@ -14,7 +14,7 @@ function exibirTextoNaTela(tag, texto) {
 }
 exibirTexto();
 exibirTextoNaTela('h1','Bem vindo ao jogo secreto' );
-exibirTextoNaTela('p','escolha um numero de 1 a 10. Que comecem os jogos!!' );
+exibirTextoNaTela('p','escolha um numero de 1 a 10.' );
 
 function verificarChute() {
     let numero = document.querySelector('input').value;
